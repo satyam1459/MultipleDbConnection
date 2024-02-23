@@ -1,0 +1,27 @@
+#db1
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Db1
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+
+
+  main:
+    allow-bean-definition-overriding: true
+#db2
+second:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Db2
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+
+#db3
+third:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Db3
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+
